@@ -119,4 +119,4 @@ alias dc='cd'
 hmc() {
     history | awk '{$1=""; print substr($0,2)}' | sort | uniq -c | sort -n | tail -n 10
 }
-PS1='\[\e[1;32m\]\u \[\e[1;34m\]\w \[\e[1;33m\]» \[\e[0m\]'
+PS1='\[\e[1;32m\]Володар \[\e[1;34m\]\w \[\e[1;33m\]» \[\e[0m\]'
