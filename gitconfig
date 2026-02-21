@@ -1,3 +1,7 @@
 [user]
 	email = hymalm01052006@gmail.com
 	name = hymal
+[alias]
+	graph = log --all --graph --decorate --oneline
+[core]
+	excludesfile = /home/hymal/.gitignore_global
