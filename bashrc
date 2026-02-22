@@ -119,5 +119,5 @@ alias dc='cd'
 hmc() {
     history | awk '{$1=""; print substr($0,2)}' | sort | uniq -c | sort -n | tail -n 10
 }
-PS1='\[\e[1;32m\]SUPERULTRAPRO3000\[\e[1;37m\]: \[\e[1;34m\]\w\[\e[1;33m\]» \[\e[0m\]'
+PS1='\[\e[1;32m\]SUPEPROULTRAKAPUSTA3000\[\e[1;37m\]: \[\e[1;34m\]\w\[\e[1;33m\]» \[\e[0m\]'
 set -o vi
